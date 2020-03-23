@@ -1,7 +1,8 @@
 const FILES_TO_CACHE = [
   "/",
   "/index.html",
-  "/assets/css/style.css",
+  "./assets/css.style.css",
+  "/index.js"
 ];
 
 const PRECACHE = "precache-v1";
