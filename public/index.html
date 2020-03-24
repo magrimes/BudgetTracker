@@ -8,7 +8,8 @@
     <meta name="theme-color" content="#317EFB" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="mainifest" href="./manifest.json" />
     <title>Budget Tracker</title>
 </head>
 
@@ -46,18 +47,10 @@
 
         <canvas id="my-chart"></canvas>
     </div>
-    <!-- <script>
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", () => {
-                navigator.serviceWorker.register("service-worker.js").then(reg => {
-                    console.log("We found your service worker file!", reg);
-                });
-            });
-        }
-    </script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script src="/db.js"></script>
-    <script src="/assets/js/budget.js"></script>
+    <script src="./db.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
